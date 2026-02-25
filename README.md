@@ -46,10 +46,10 @@ A static, responsive, multi-page website for a fictional UK driving school.
 ### 3. Structure (Information Architecture)
 
 - Consistent fixed navbar
-- Home page: Hero - Services - Testimonials - Newsletter
+- Home page: Hero - Services - Testimonials
 - Dedicated booking page with form
 - Success page
-- Footer with contact + social links on every page
+- Footer with contact and social links on every page
 
 ### 4. Skeleton (Wireframes)
 
@@ -62,23 +62,13 @@ The wireframes show:
 - Booking form layout
 - Consistent footer
 
-**Home Page**
+**Wireframes**
 
-- Mobile: **TBC**
-- Tablet: **TBC**
-- Desktop: **TBC**
+- **[Home Page](assets/wireframes/wireframe-safe-drive-uk-home-page.pdf)**
 
-**Booking Page**
+- **[Booking Page](assets/wireframes/wireframe-safe-drive-uk-booking-page.pdf)**
 
-- Mobile: **TBC**
-- Tablet: **TBC**
-- Desktop: **TBC**
-
-**Success Page**
-
-- Mobile: **TBC**
-- Tablet: **TBC**
-- Desktop: **TBC**
+- **[Success Page](assets/wireframes/wireframe-safe-drive-uk-success-page.pdf)**
 
 ### 5. Surface (Look & Feel)
 
@@ -126,7 +116,7 @@ The wireframes show:
 - Bootstrap 5.3
 - Git & GitHub
 - GitHub Pages
-- Canva - Wireframes and logo
+- Balsamiq - Wireframes
 - **TBC**
 
 ## Code & Media Attribution
@@ -143,8 +133,6 @@ The wireframes show:
 **Media**
 
 - Hero Image - **Link TBC**
-- Logo - Canva
-- Service Card and Testimonial images - **TBC**
 
 **All other code, content, colours, layout decisions and copy written by me.**
 
