@@ -134,6 +134,9 @@ Confirmation message and direction to social media.
 - GitHub Pages
 - Balsamiq - Wireframes
 - Windows Snipping Tool - Wireframe previews
+- ChatGPT - Image Generation
+- picsart.com - Image cropping and resizing
+- tinypng.com - Format conversion and compression
 - **TBC**
 
 ## Code & Media Attribution
