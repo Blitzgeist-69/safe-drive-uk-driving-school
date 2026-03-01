@@ -134,12 +134,17 @@ Confirmation message and direction to social media.
 - GitHub Pages
 - Balsamiq - Wireframes
 - Windows Snipping Tool - Wireframe previews
-- ChatGPT - Image Generation
+- Chat GPT - Image Generation
 - picsart.com - Image cropping and resizing
-- tinypng.com - Format conversion and compression
+- tinypng.com - Image format conversion and compression
+- favicon.io - Conversion of Font Awesome icon to favicon
+
 - **TBC**
 
 ## Code & Media Attribution
+
+- Font Awesome - icons
+- ChatGPT - Image Generation
 
 **External Code**
 
