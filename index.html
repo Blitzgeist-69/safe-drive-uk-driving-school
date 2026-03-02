@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Safe Drive UK | Driving School</title>
         <!-- Meta tags for SEO-->
         <meta
             name="description"
@@ -13,6 +12,12 @@
             name="keywords"
             content="driving school uk, driving lessons, learner driver, driving instructor, manual driving lessons, automatic driving lessons, intensive driving courses, ev driving lessons, towing lessons, book driving lessons, driving school near me, pass plus course"
         />
+
+        <!-- Title -->
+        <title>Safe Drive UK | Driving School</title>
+
+        <!-- Font Awesome kit -->
+        <script src="https://kit.fontawesome.com/5c6ebc3ae9.js" crossorigin="anonymous"></script>
 
         <!-- Link to Bootstrap 5 -->
         <link
@@ -24,29 +29,68 @@
         <!-- Link to custom CSS -->
         <link rel="stylesheet" href="assets/css/style.css" />
 
-        <!-- Font Awesome kit -->
-        <script src="https://kit.fontawesome.com/5c6ebc3ae9.js" crossorigin="anonymous"></script>
-
         <!-- Favicon converted from Font Awesome car icon using favicon.io -->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
     </head>
     <body>
+        <div>
+            <!-- Bootstrap Navigation menu -->
+            <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"
+                        ><i class="fa-solid fa-car" style="color: #15803d"></i> Safe Drive UK
+                        Driving School</a
+                    >
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonials">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-success fw-semibold" href="booking.html"
+                                    ><i class="fa-solid fa-car me-2" style="color: #1e3a8a"></i>
+                                    Book Now</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Header with hero, title, description and CTA  -->
         <header>
             <h1><i class="fa-solid fa-car" style="color: #15803d"></i> Safe Drive UK</h1>
             <h2>Driving School</h2>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#booking">Book Now</a></li>
-                </ul>
-            </nav>
         </header>
+
+        <!-- Main Content-->
         <main></main>
+
+        <!-- Footer with contact information -->
         <footer></footer>
         <!-- Bootstrap 5 JavaScript Bundle and Popper for drop-downs-->
         <script

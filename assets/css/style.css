@@ -1,7 +1,39 @@
 /* Google Fonts import */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
+/* CSS Variables for consistent theming */
+:root {
+    /* Brand Colours */
+    --primary-green: #15803d; /* buttons */
+    --secondary-navy: #1e3a8a; /* navbar, dark headings */
+
+    /* Text Colours */
+    --text-dark: #111827; /* main body text */
+    --text-light: #f8fafc; /* text on dark backgrounds */
+
+    /* Backgrounds */
+    --bg-light: #f8fafc;
+    --bg-dark: #1e3a8a;
+
+    /* Light border */
+    --border-light: #e2e8f0;
+}
+
 body {
-    color: red;
+    color: var(--text-dark);
     font-family: "Montserrat", sans-serif;
 }
+
+/* Navbar custom styles */
+.navbar-custom {
+    background-color: var(--secondary-navy);
+}
+
+/* Make text white */
+.navbar-custom .nav-link {
+    color: white;
+}
+
+/* Hover effect for nav links */
+.navbar-custom .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
