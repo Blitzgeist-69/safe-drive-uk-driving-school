@@ -38,13 +38,17 @@
         <div>
             <!-- Bootstrap Navigation menu -->
             <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html"
-                        ><i class="fa-solid fa-car" style="color: #15803d"></i> Safe Drive UK
-                        Driving School</a
+                <div class="container-fluid px-4">
+                    <a class="navbar-brand d-flex flex-column align-items-start" href="index.html">
+                        <span class="d-flex fw-bold text-white align-items-center"
+                            ><i class="fa-solid fa-car me-2" style="color: #15803d"></i> Safe Drive
+                            UK</span
+                        >
+                        <span class="small text-white-50 fw-normal ps-5">Driving School</span></a
                     >
+                    <!-- Burger menu -->
                     <button
-                        class="navbar-toggler"
+                        class="navbar-toggler ms-auto"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarNav"
@@ -54,6 +58,8 @@
                     >
                         <span class="navbar-toggler-icon"></span>
                     </button>
+
+                    <!-- Navbar links -->
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
