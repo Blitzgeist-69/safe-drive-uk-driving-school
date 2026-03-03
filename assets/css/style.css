@@ -37,6 +37,10 @@ body {
     color: white;
 }
 
+/* Navbar button icon color */
+.btn-success i.fa-car {
+    color: var(--secondary-navy);
+}
 /* Make active nav link pop */
 .navbar-custom .nav-link.active {
     background-color: var(--nav-hover);
@@ -48,4 +52,10 @@ body {
 .navbar-custom .nav-link:hover {
     background-color: var(--nav-hover);
     border-radius: 5px;
+}
+
+/* Make car icons primary green in navbar and body */
+.navbar-brand .fa-car,
+body .fa-car {
+    color: var(--primary-green);
 }
