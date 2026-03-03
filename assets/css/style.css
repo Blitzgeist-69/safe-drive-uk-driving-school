@@ -25,6 +25,13 @@
 body {
     color: var(--text-dark);
     font-family: "Montserrat", sans-serif;
+
+    padding-top: 82px; /* To prevent content from being hidden behind fixed navbar */
+}
+
+body p {
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 1.5rem;
 }
 
 /* Navbar custom styles */
@@ -58,4 +65,18 @@ body {
 .navbar-brand .fa-car,
 body .fa-car {
     color: var(--primary-green);
+}
+
+header {
+    padding: 2rem 1rem;
+    background-color: var(--bg-dark);
+    text-align: center;
+}
+
+header h1,
+p {
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--text-light);
 }

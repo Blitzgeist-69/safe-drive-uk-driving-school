@@ -37,7 +37,7 @@
     <body>
         <div>
             <!-- Bootstrap Navigation menu -->
-            <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
+            <nav class="navbar navbar-expand-lg navbar-custom navbar-dark fixed-top">
                 <div class="container-fluid px-4">
                     <a class="navbar-brand d-flex flex-column align-items-start" href="index.html">
                         <span class="d-flex fw-bold text-white align-items-center"
@@ -87,12 +87,49 @@
         </div>
         <!-- Header with hero, title, description and CTA  -->
         <header>
-            <h1><i class="fa-solid fa-car"></i> Safe Drive UK</h1>
-            <h2>Driving School</h2>
+            <picture>
+                <!-- Desktop - 1920x720 -->
+                <source
+                    media="(min-width: 992px)"
+                    srcset="assets/images/learner-hero-1920x720px.webp"
+                />
+
+                <!-- Tablet - 1400x700 -->
+                <source
+                    media="(min-width: 768px)"
+                    srcset="assets/images/learner-hero-1400x700px.webp"
+                />
+
+                <!-- Mobile - 900x600 (default) -->
+                <img
+                    src="assets/images/learner-hero-900x600px.webp"
+                    alt="Safe Drive UK Driving School Instructor with Learner Driver in Car looking ahead through windscreen"
+                    class="img-fluid w-100"
+                />
+            </picture>
+            <div class="container">
+                <h1 class="display-5 fw-bold">Safe Drive UK</h1>
+
+                <p>Welcome to Safe Drive UK - your trusted local driving school.</p>
+                <p>
+                    We specialise in patient, high-quality instruction for beginners and experienced
+                    drivers alike, covering manual, automatic, EV and towing lessons.
+                </p>
+                <p>
+                    Flexible block packages with student discounts available. Start your journey
+                    with confidence today.
+                </p>
+                <a href="booking.html" class="btn btn-success btn-lg fw-semibold mb-2"
+                    ><i class="fa-solid fa-car me-2"></i> Book Now</a
+                >
+            </div>
         </header>
 
         <!-- Main Content-->
-        <main></main>
+        <main>
+            <h1><i class="fa-solid fa-car"></i> Safe Drive UK</h1>
+            <h2>Driving School</h2>
+        </main>
 
         <!-- Footer with contact information -->
         <footer></footer>
