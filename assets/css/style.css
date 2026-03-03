@@ -17,6 +17,9 @@
 
     /* Light border */
     --border-light: #e2e8f0;
+
+    /* Navigation active and hover */
+    --nav-hover: #ffffff38;
 }
 
 body {
@@ -34,7 +37,15 @@ body {
     color: white;
 }
 
+/* Make active nav link pop */
+.navbar-custom .nav-link.active {
+    background-color: var(--nav-hover);
+    font-weight: 700;
+    border-radius: 5px;
+}
+
 /* Hover effect for nav links */
 .navbar-custom .nav-link:hover {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: var(--nav-hover);
+    border-radius: 5px;
 }
