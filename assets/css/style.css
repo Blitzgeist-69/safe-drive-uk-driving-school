@@ -67,16 +67,23 @@ body .fa-car {
     color: var(--primary-green);
 }
 
-main {
-    background-color: var(--bg-dark);
+#hero {
+    background-color: var(--secondary-navy);
     text-align: center;
-    color: var(--primary-green);
-}
-
-main p {
     color: var(--text-light);
 }
 
-.hero-text {
-    margin-top: -50px;
+main {
+    background-color: var(--primary-green);
+    color: var(--text-light);
+}
+
+footer {
+    background-color: var(--secondary-navy);
+    color: var(--text-light);
+    padding: 20px 0;
+}
+
+footer h3 {
+    font-family: Montserrat, sans-serif;
 }
