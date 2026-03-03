@@ -35,102 +35,111 @@
         <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
     </head>
     <body>
-        <div>
-            <!-- Bootstrap Navigation menu -->
-            <nav class="navbar navbar-expand-lg navbar-custom navbar-dark fixed-top">
-                <div class="container-fluid px-4">
-                    <a class="navbar-brand d-flex flex-column align-items-start" href="index.html">
-                        <span class="d-flex fw-bold text-white align-items-center"
-                            ><i class="fa-solid fa-car me-2"></i> Safe Drive UK</span
-                        >
-                        <span class="small text-white-50 fw-normal ps-5">Driving School</span></a
-                    >
-                    <!-- Burger menu -->
-                    <button
-                        class="navbar-toggler ms-auto"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <!-- Navbar links -->
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html"
-                                    >Home</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#services">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#testimonials">Testimonials</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="btn btn-success fw-semibold" href="booking.html"
-                                    ><i class="fa-solid fa-car me-2"></i> Book Now</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <!-- Header with hero, title, description and CTA  -->
+        <!-- Header with navbar -->
         <header>
-            <picture>
-                <!-- Desktop - 1920x720 -->
-                <source
-                    media="(min-width: 992px)"
-                    srcset="assets/images/learner-hero-1920x720px.webp"
-                />
+            <div>
+                <!-- Bootstrap Navigation menu -->
+                <nav class="navbar navbar-expand-lg navbar-custom navbar-dark fixed-top">
+                    <div class="container-fluid px-4">
+                        <a
+                            class="navbar-brand d-flex flex-column align-items-start"
+                            href="index.html"
+                        >
+                            <span class="d-flex fw-bold text-white align-items-center"
+                                ><i class="fa-solid fa-car me-2"></i> Safe Drive UK</span
+                            >
+                            <span class="small text-white-50 fw-normal ps-5"
+                                >Driving School</span
+                            ></a
+                        >
+                        <!-- Burger menu -->
+                        <button
+                            class="navbar-toggler ms-auto"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-                <!-- Tablet - 1400x700 -->
-                <source
-                    media="(min-width: 768px)"
-                    srcset="assets/images/learner-hero-1400x700px.webp"
-                />
-
-                <!-- Mobile - 900x600 (default) -->
-                <img
-                    src="assets/images/learner-hero-900x600px.webp"
-                    alt="Safe Drive UK Driving School Instructor with Learner Driver in Car looking ahead through windscreen"
-                    class="img-fluid w-100"
-                />
-            </picture>
-            <div class="container">
-                <h1 class="display-5 fw-bold">Safe Drive UK</h1>
-
-                <p>Welcome to Safe Drive UK - your trusted local driving school.</p>
-                <p>
-                    We specialise in patient, high-quality instruction for beginners and experienced
-                    drivers alike, covering manual, automatic, EV and towing lessons.
-                </p>
-                <p>
-                    Flexible block packages with student discounts available. Start your journey
-                    with confidence today.
-                </p>
-                <a href="booking.html" class="btn btn-success btn-lg fw-semibold mb-2"
-                    ><i class="fa-solid fa-car me-2"></i> Book Now</a
-                >
+                        <!-- Navbar links -->
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#services">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn btn-success fw-semibold" href="booking.html"
+                                        ><i class="fa-solid fa-car me-2"></i> Book Now</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </header>
-
-        <!-- Main Content-->
         <main>
+            <section>
+                <!-- Main section with hero, title, description and CTA  -->
+
+                <picture>
+                    <!-- Desktop - 1920x720 -->
+                    <source
+                        media="(min-width: 992px)"
+                        srcset="assets/images/learner-hero-1920x720px.webp"
+                    />
+
+                    <!-- Tablet - 1400x700 -->
+                    <source
+                        media="(min-width: 768px)"
+                        srcset="assets/images/learner-hero-1400x700px.webp"
+                    />
+
+                    <!-- Mobile - 900x600 (default) -->
+                    <img
+                        src="assets/images/learner-hero-900x600px.webp"
+                        alt="Safe Drive UK Driving School Instructor with Learner Driver in Car looking ahead through windscreen"
+                        class="img-fluid w-100"
+                    />
+                </picture>
+                <div class="container hero-text">
+                    <h1 class="display-5 fw-bold">Safe Drive UK</h1>
+
+                    <p>
+                        Welcome to Safe Drive UK - your trusted local driving school. We specialise
+                        in patient, high-quality instruction for beginners and experienced drivers
+                        alike, covering manual, automatic, EV and towing lessons.
+                    </p>
+                    <p>
+                        Flexible block packages with student discounts available. Start your journey
+                        with confidence today.
+                    </p>
+                    <a href="booking.html" class="btn btn-success btn-lg fw-semibold mb-2"
+                        ><i class="fa-solid fa-car me-2"></i> Book Now</a
+                    >
+                </div>
+            </section>
+
+            <!-- Main Content-->
+
             <h1><i class="fa-solid fa-car"></i> Safe Drive UK</h1>
             <h2>Driving School</h2>
         </main>
-
         <!-- Footer with contact information -->
         <footer></footer>
         <!-- Bootstrap 5 JavaScript Bundle and Popper for drop-downs-->
