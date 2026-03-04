@@ -79,7 +79,7 @@
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.html#contact">Contact</a>
+                                    <a class="nav-link" href="#contact">Contact</a>
                                 </li>
                                 <!-- Book Now button removed -->
                             </ul>
@@ -90,9 +90,94 @@
         </header>
         <main>
             <h1>Booking Page</h1>
+            <p>PLACEHOLDER: Please fill in the details below to book a driving lesson.</p>
+            <form>
+                <!-- Form fields for booking details -->
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="John Doe" required />
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="john.doe@example.com"
+                        required
+                    />
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input
+                        type="tel"
+                        class="form-control"
+                        id="phone"
+                        placeholder="01234 567890"
+                        required
+                    />
+                </div>
+                <div class="mb-3">
+                    <label for="lesson-type" class="form-label">Lesson Type</label>
+                    <select class="form-control" id="lesson-type" required>
+                        <option value="">Select a lesson type</option>
+                        <option value="manual">Manual Driving Lesson</option>
+                        <option value="automatic">Automatic Driving Lesson</option>
+                        <option value="ev">Electric Vehicle Driving Lesson</option>
+                        <option value="towing">Towing Lesson</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="date" class="form-label">Preferred Date</label>
+                    <input type="date" class="form-control" id="date" required />
+                </div>
+                <button type="submit" class="btn btn-primary">Book Lesson</button>
+            </form>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </main>
         <!-- Footer with contact information -->
-        <footer></footer>
+        <footer id="contact" class="mt-auto py-5">
+            <div class="container">
+             
+            <!-- Title centred -->
+            <div class="row justify-content-center text-center">
+                    <h3 class="fw-bold">Safe Drive UK - Contact</h3>
+            </div>
+
+            <!-- Two columns - Contact left and Address right -->
+            <div class="row justify-content-center text-center text-md-start g-4">
+
+                <!-- Email and phone left -->
+                <div class="col-md-4">
+                    <p class="mb-2 d-flex align-items-center justify-content-center justify-content-md-start">
+                        <i class="fa-regular fa-envelope me-2"></i> <a href="mailto:info@safe-drive-uk.co.uk">info@safe-drive-uk.co.uk</a>
+                    </p>
+                    <p class="mb-0 d-flex align-items-center justify-content-center justify-content-md-start">
+                        <i class="fa-solid fa-phone me-2"></i><a href="tel:+441234567890">+44 1234 567890</a>
+                     </p>
+
+                </div>
+
+                <!-- Address right -->
+                 <div class="col-md-2">
+                    <p class="mb-0 d-flex align-items-start justify-content-center justify-content-md-start">
+                        <i class="fa-solid fa-location-dot me-2"></i>
+                        <span> 111 The High Street<br/>Hightown<br/>The Shire<br/>UK</span>
+                    </p>        
+                </div>
+            </div>
+        </footer>
         <!-- Bootstrap 5 JavaScript Bundle and Popper for drop-downs-->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
