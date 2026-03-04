@@ -78,6 +78,11 @@ main {
     color: var(--text-light);
 }
 
+.card .badge {
+    background-color: var(--secondary-navy);
+    color: var(--text-light);
+}
+
 footer {
     background-color: var(--secondary-navy);
     color: var(--text-light);
