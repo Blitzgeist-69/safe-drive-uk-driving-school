@@ -84,6 +84,7 @@ footer {
     padding: 20px 0;
 }
 
-footer h3 {
-    font-family: Montserrat, sans-serif;
+footer a {
+    color: var(--text-light);
+    font-family: "Open Sans", sans-serif;
 }
