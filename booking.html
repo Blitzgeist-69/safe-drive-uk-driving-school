@@ -339,6 +339,47 @@
                         </div>
                     </div>
 
+                    <!-- Time of day dropdown -->
+                    <div>
+                        <label class="form-label">Preferred time of day</label>
+                        <select class="form-select" id="time-of-day" name="time-of-day">
+                            <option value="anytime">Any time</option>
+                            <option value="morning">Morning (8am - 12pm)</option>
+                            <option value="afternoon">Afternoon (12pm - 5pm)</option>
+                            <option value="evening">Evening (5pm - 8pm)</option>
+                            <option value="weekend">Weekend only</option>
+                        </select>
+                    </div>
+
+                    <!-- Student/NHS/Keywork discount checkbox -->
+                    <div class="form-check">
+                        <input
+                            class="form-check-input"
+                            type="checkbox"
+                            id="student-discount"
+                            name="student-discount"
+                        />
+                        <label class="form-check-label" for="student-discount">
+                            I am a student, NHS or key worker (10% extra discount applies)
+                        </label>
+                    </div>
+
+                    <!-- Optional message textbox -->
+                    <div>
+                        <label class="form-label" for="message"
+                            >Additional information or special requests (optional) - Max 500
+                            chrs</label
+                        >
+                        <textarea
+                            class="form-control"
+                            id="message"
+                            rows="4"
+                            name="additional-info"
+                            placeholder="Enter any additional information or requests here..."
+                            maxlength="500"
+                        ></textarea>
+                    </div>
+
                     <button type="submit" class="btn btn-success submit">Submit Request</button>
                 </form>
             </section>
