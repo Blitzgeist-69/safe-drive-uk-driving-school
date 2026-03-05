@@ -126,6 +126,7 @@
                             type="text"
                             class="form-control"
                             id="full-name"
+                            name="full-name"
                             placeholder="Enter your full name"
                             required
                         />
@@ -140,6 +141,7 @@
                             type="number"
                             class="form-control"
                             id="phone-number"
+                            name="phone-number"
                             placeholder="Enter your phone number"
                             required
                         />
@@ -154,6 +156,7 @@
                             type="email"
                             class="form-control"
                             id="email-address"
+                            name="email-address"
                             placeholder="Enter your email address"
                             required
                         />
@@ -168,6 +171,7 @@
                             type="text"
                             class="form-control"
                             id="address"
+                            name="address"
                             placeholder="Enter your postcode or town"
                             required
                         />
@@ -179,7 +183,12 @@
                             >What is your main learning goal?
                             <i class="fa-solid fa-asterisk fa-2xs"></i
                         ></label>
-                        <select class="form-select" id="learning-goal" required>
+                        <select
+                            class="form-select"
+                            id="learning-goal"
+                            name="learning-goal"
+                            required
+                        >
                             <option value="">Please select goal...</option>
                             <option value="theory-individual">
                                 Theory Test Coaching - Individual
@@ -205,7 +214,7 @@
                                         type="radio"
                                         name="transmission"
                                         id="manual"
-                                        value="Manual"
+                                        value="manual"
                                         required
                                     />
                                     <label class="form-check-label" for="manual">Manual</label>
@@ -218,7 +227,7 @@
                                         type="radio"
                                         name="transmission"
                                         id="automatic"
-                                        value="Automatic"
+                                        value="automatic"
                                     />
                                     <label class="form-check-label" for="automatic"
                                         >Automatic</label
@@ -232,7 +241,7 @@
                                         type="radio"
                                         name="transmission"
                                         id="ev"
-                                        value="EV"
+                                        value="ev"
                                     />
                                     <label class="form-check-label" for="ev">EV (Electric)</label>
                                 </div>
@@ -245,7 +254,7 @@
                         <label for="package" class="form-label"
                             >Preferred package <i class="fa-solid fa-asterisk fa-2xs"></i
                         ></label>
-                        <select class="form-select" id="package" required>
+                        <select class="form-select" id="package" name="package" required>
                             <option value="">Please select package...</option>
                             <option value="6hour">6-hour block</option>
                             <option value="12hour">12-hour block (most popular)</option>
@@ -380,7 +389,8 @@
                         ></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-success submit">Submit Request</button>
+                    <!-- Submit button -->
+                    <a href="success.html" class="btn btn-success submit">Submit Request</a>
                 </form>
             </section>
         </main>
