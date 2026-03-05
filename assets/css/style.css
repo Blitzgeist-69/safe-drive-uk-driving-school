@@ -100,6 +100,11 @@ body .fa-asterisk {
     color: var(--secondary-navy);
 }
 
+.form-check-input:checked {
+    background-color: var(--secondary-navy);
+    border-color: var(--secondary-navy);
+}
+
 body .submit {
     background-color: var(--secondary-navy);
 }
