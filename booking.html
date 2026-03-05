@@ -120,7 +120,7 @@
                     <!-- Full name -->
                     <div>
                         <label for="full-name" class="form-label"
-                            >Full Name <i class="fa-solid fa-asterisk fa-2xs"></i
+                            >Full Name <i class="fa-solid fa-asterisk fa-2xs" aria-hidden="true"></i
                         ></label>
                         <input
                             type="text"
@@ -135,7 +135,8 @@
                     <!-- Phone number  -->
                     <div>
                         <label for="phone-number" class="form-label"
-                            >Phone Number <i class="fa-solid fa-asterisk fa-2xs"></i
+                            >Phone Number
+                            <i class="fa-solid fa-asterisk fa-2xs" aria-hidden="true"></i
                         ></label>
                         <input
                             type="number"
@@ -150,7 +151,8 @@
                     <!-- Email address -->
                     <div>
                         <label for="email-address" class="form-label"
-                            >Email Address <i class="fa-solid fa-asterisk fa-2xs"></i
+                            >Email Address
+                            <i class="fa-solid fa-asterisk fa-2xs" aria-hidden="true"></i
                         ></label>
                         <input
                             type="email"
@@ -165,7 +167,8 @@
                     <!-- Address -->
                     <div>
                         <label for="address" class="form-label"
-                            >Post code / Town <i class="fa-solid fa-asterisk fa-2xs"></i
+                            >Post code / Town
+                            <i class="fa-solid fa-asterisk fa-2xs" aria-hidden="true"></i
                         ></label>
                         <input
                             type="text"
@@ -181,7 +184,7 @@
                     <div>
                         <label for="learning-goal" class="form-label"
                             >What is your main learning goal?
-                            <i class="fa-solid fa-asterisk fa-2xs"></i
+                            <i class="fa-solid fa-asterisk fa-2xs" aria-hidden="true"></i
                         ></label>
                         <select
                             class="form-select"
@@ -203,56 +206,62 @@
 
                     <!-- Transmission type -->
                     <div>
-                        <label class="form-label"
-                            >Preferred transmission type <i class="fa-solid fa-asterisk fa-2xs"></i
-                        ></label>
-                        <div>
+                        <fieldset  class="border-0">
+                            <legend class="form-label"></legend>
+                                Preferred transmission type
+                                <i class="fa-solid fa-asterisk fa-2xs" aria-hidden="true"></i>
+                            </legend>
                             <div>
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="transmission"
-                                        id="manual"
-                                        value="manual"
-                                        required
-                                    />
-                                    <label class="form-check-label" for="manual">Manual</label>
+                                <div>
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            name="transmission"
+                                            id="manual"
+                                            value="manual"
+                                            required
+                                        />
+                                        <label class="form-check-label" for="manual">Manual</label>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            name="transmission"
+                                            id="automatic"
+                                            value="automatic"
+                                        />
+                                        <label class="form-check-label" for="automatic"
+                                            >Automatic</label
+                                        >
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            name="transmission"
+                                            id="ev"
+                                            value="ev"
+                                        />
+                                        <label class="form-check-label" for="ev"
+                                            >EV (Electric)</label
+                                        >
+                                    </div>
                                 </div>
                             </div>
-                            <div>
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="transmission"
-                                        id="automatic"
-                                        value="automatic"
-                                    />
-                                    <label class="form-check-label" for="automatic"
-                                        >Automatic</label
-                                    >
-                                </div>
-                            </div>
-                            <div>
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="transmission"
-                                        id="ev"
-                                        value="ev"
-                                    />
-                                    <label class="form-check-label" for="ev">EV (Electric)</label>
-                                </div>
-                            </div>
-                        </div>
+                        </fieldset>
                     </div>
 
                     <!-- Preferred package -->
                     <div>
                         <label for="package" class="form-label"
-                            >Preferred package <i class="fa-solid fa-asterisk fa-2xs"></i
+                            >Preferred package
+                            <i class="fa-solid fa-asterisk fa-2xs" aria-hidden="true"></i
                         ></label>
                         <select class="form-select" id="package" name="package" required>
                             <option value="">Please select package...</option>
@@ -266,86 +275,91 @@
 
                     <!-- Preferred Days -->
                     <div>
-                        <label class="form-label">Preferred days / times</label>
-                        <div class="row row-cols-2 row-cols-sm-3 g-2">
-                            <div class="col">
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="checkbox"
-                                        id="mon"
-                                        value="monday"
-                                        name="days"
-                                    /><label class="form-check-label" for="mon">Monday</label>
+                        <fieldset class="border-0">
+                            <legend class="form-label">
+                                Preferred days / times 
+                                <span class="small">(select all that apply)</span>
+                            </legend>
+                            <div class="row row-cols-2 row-cols-sm-3 g-2">
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            id="mon"
+                                            value="monday"
+                                            name="days"
+                                        /><label class="form-check-label" for="mon">Monday</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            id="tue"
+                                            value="tuesday"
+                                            name="days"
+                                        /><label class="form-check-label" for="tue">Tuesday</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            id="wed"
+                                            value="wednesday"
+                                            name="days"
+                                        /><label class="form-check-label" for="wed">Wednesday</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            id="thu"
+                                            value="thursday"
+                                            name="days"
+                                        /><label class="form-check-label" for="thu">Thursday</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            id="fri"
+                                            value="friday"
+                                            name="days"
+                                        /><label class="form-check-label" for="fri">Friday</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            id="sat"
+                                            value="saturday"
+                                            name="days"
+                                        /><label class="form-check-label" for="sat">Saturday</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            id="sun"
+                                            value="sunday"
+                                            name="days"
+                                        /><label class="form-check-label" for="sun">Sunday</label>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col">
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="checkbox"
-                                        id="tue"
-                                        value="tuesday"
-                                        name="days"
-                                    /><label class="form-check-label" for="tue">Tuesday</label>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="checkbox"
-                                        id="wed"
-                                        value="wednesday"
-                                        name="days"
-                                    /><label class="form-check-label" for="wed">Wednesday</label>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="checkbox"
-                                        id="thu"
-                                        value="thursday"
-                                        name="days"
-                                    /><label class="form-check-label" for="thu">Thursday</label>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="checkbox"
-                                        id="fri"
-                                        value="friday"
-                                        name="days"
-                                    /><label class="form-check-label" for="fri">Friday</label>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="checkbox"
-                                        id="sat"
-                                        value="saturday"
-                                        name="days"
-                                    /><label class="form-check-label" for="sat">Saturday</label>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="checkbox"
-                                        id="sun"
-                                        value="sunday"
-                                        name="days"
-                                    /><label class="form-check-label" for="sun">Sunday</label>
-                                </div>
-                            </div>
-                        </div>
+                        </fieldset>
                     </div>
 
                     <!-- Time of day dropdown -->
