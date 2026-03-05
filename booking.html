@@ -89,80 +89,104 @@
             </div>
         </header>
         <main>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <h1>Booking Page</h1>
-            <h2>PLACEHOLDER: Please fill in the details below to book a driving lesson.</h2>
-            <form>
-                <!-- Form fields for booking details -->
-                <div class="mb-3">
-                    <label for="name" class="form-label">Full Name</label>
-                    <input
-                        type="text"
-                        class="form-control"
-                        id="name"
-                        placeholder="John Doe"
-                        required
-                    />
+            <section>
+                <div class="container text-center pt-5">
+                    <h1 class="fw-bold">Safe Drive UK Driving School</h1>
+                    <h2 class="py-4">Book your driving lessons</h2>
+                    <p>
+                        Tell us a little about you and your goals and we'll get you matched with the
+                        right instructor and schedule.
+                    </p>
+
+                    <div class="d-flex justify-content-center gap-4 mb-3 flex-wrap">
+                        <div class="fw-medium">
+                            <i class="fa-solid fa-check fa-xl me-1"></i> Takes 60 seconds
+                        </div>
+                        <div class="fw-medium">
+                            <i class="fa-solid fa-check fa-xl me-1"></i> No payment needed now
+                        </div>
+                        <div class="fw-medium">
+                            <i class="fa-solid fa-check fa-xl me-1"></i> We'll reply within 24 hours
+                        </div>
+                    </div>
+                    <div class="small py-3">
+                        <i class="fa-solid fa-asterisk fa-xs me-1"></i>
+                        Indicates required fields
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email address</label>
-                    <input
-                        type="email"
-                        class="form-control"
-                        id="email"
-                        placeholder="john.doe@example.com"
-                        required
-                    />
-                </div>
-                <div class="mb-3">
-                    <label for="phone" class="form-label">Phone Number</label>
-                    <input
-                        type="tel"
-                        class="form-control"
-                        id="phone"
-                        placeholder="01234 567890"
-                        required
-                    />
-                </div>
-                <div class="mb-3">
-                    <label for="lesson-type" class="form-label">Lesson Type</label>
-                    <select class="form-control" id="lesson-type" required>
-                        <option value="">Select a lesson type</option>
-                        <option value="manual">Manual Driving Lesson</option>
-                        <option value="automatic">Automatic Driving Lesson</option>
-                        <option value="ev">Electric Vehicle Driving Lesson</option>
-                        <option value="towing">Towing Lesson</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <label for="date" class="form-label">Preferred Date</label>
-                    <input type="date" class="form-control" id="date" required />
-                </div>
-                <button type="submit" class="btn btn-primary">Book Lesson</button>
-            </form>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            </section>
+            <section class="container">
+                <form>
+                    <div>
+                        <label for="full-name" class="form-label"
+                            >Full Name <i class="fa-solid fa-asterisk fa-2xs"></i
+                        ></label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="full-name"
+                            placeholder="Enter your full name"
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label for="phone-number" class="form-label"
+                            >Phone Number <i class="fa-solid fa-asterisk fa-2xs"></i
+                        ></label>
+                        <input
+                            type="number"
+                            class="form-control"
+                            id="phone-number"
+                            placeholder="Enter your phone number"
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label for="email-address" class="form-label"
+                            >Email Address <i class="fa-solid fa-asterisk fa-2xs"></i
+                        ></label>
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="email-address"
+                            placeholder="Enter your email address"
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label for="address" class="form-label"
+                            >Post code / Town <i class="fa-solid fa-asterisk fa-2xs"></i
+                        ></label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="address"
+                            placeholder="Enter your postcode or town"
+                            required
+                        />
+                    </div>
+                    <div class="">
+                        <label for="learning-goal" class="form-label"
+                            >What is your main learning goal?
+                            <i class="fa-solid fa-asterisk fa-2xs"></i
+                        ></label>
+                        <select class="form-select" id="learning-goal" required>
+                            <option value="">Please select...</option>
+                            <option>Theory Test Coaching – Individual</option>
+                            <option>Theory Test Coaching - Group</option>
+                            <option>Practical Lessons</option>
+                            <option>Theory & Practical</option>
+                            <option>Pass Plus/Confidence Coaching</option>
+                            <option>Towing</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-success submit">Submit Request</button>
+                </form>
+            </section>
         </main>
 
         <!-- Footer with contact information -->

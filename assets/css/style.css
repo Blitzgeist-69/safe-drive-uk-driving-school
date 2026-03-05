@@ -95,6 +95,15 @@ main {
     color: var(--text-light);
 }
 
+body .fa-check,
+body .fa-asterisk {
+    color: var(--secondary-navy);
+}
+
+body .submit {
+    background-color: var(--secondary-navy);
+}
+
 footer {
     background-color: var(--secondary-navy);
     color: var(--text-light);
