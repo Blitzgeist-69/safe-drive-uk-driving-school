@@ -2,16 +2,28 @@
 
 A static, responsive, multi-page website for a fictional UK driving school.
 
-**Live Site:** **TBC**
+![Safe Drive UK Hero](assets/images/learner-hero-900x600px.webp)
 
-**GitHub Repo:** **TBC**
+## Project Description
+
+Safe Drive UK is a clean, professional, responsive website built for an imaginary driving school in the UK. The site helps potential students discover services, read testimonials, and easily book driving lessons.
+
+It was created as a static front-end project using HTML5, CSS3 and Bootstrap 5.3.
+
+**Live Site:**
+
+https://blitzgeist-69.github.io/safe-drive-uk-driving-school/
+
+**GitHub Repo:**
+
+https://github.com/Blitzgeist-69/safe-drive-uk-driving-school
 
 ## UX Design – The 5 Planes
 
 ### 1. Strategy (Project Goals)
 
 **Business Goal:** The key business goal is **to generate new student bookings**.  
-**Main CTA:** “Book Now” button leads to the booking form to convert visitors into customers.
+**Main CTA:** **“Book Now”** button leads to the booking form to convert visitors into customers.
 
 **User Goals:**
 
@@ -53,6 +65,8 @@ A static, responsive, multi-page website for a fictional UK driving school.
 
 ### 4. Skeleton (Wireframes)
 
+The wireframes were created using Balsamiq.
+
 The wireframes show:
 
 - Fixed navbar
@@ -86,9 +100,15 @@ Confirmation message and direction to social media.
 | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | [![Success Mobile](assets/wireframes/previews/sduk-success-mobile-preview.png)](assets/wireframes/wireframe-safe-drive-uk-success-page.png) | [![Success Tablet](assets/wireframes/previews/sduk-success-tablet-preview.png)](assets/wireframes/wireframe-safe-drive-uk-success-page.png) | [![Success Desktop](assets/wireframes/previews/sduk-success-desktop-preview.png)](assets/wireframes/wireframe-safe-drive-uk-success-page.png) |
 
-## 5. Surface (Look & Feel) |
+## 5. Surface (Look & Feel)
 
-**TBC**
+### Design Choices
+
+- **Mobile-first design** – built with Bootstrap 5.3 grid system for responsiveness on all device types/sizes. It allowed fast, consistent layout and components (navbar, cards, modals, forms) while still letting me write custom CSS for branding.
+- **Colour scheme**: Safety green (#15803d) and dark navy (#1e3a8a) for trust and professionalism.
+- **Typography**: Google Fonts "Montserrat" for headings and "Open Sans" for body text for clarity and a professional look.
+- **Hero image & visuals**: High-quality AI generated images are royalty-free and provided more relevant images than are available from free image sites.
+- **Accessibility**: Semantic HTML, proper labels on forms, alt text on all images, good colour contrast.
 
 ## User Stories
 
@@ -112,10 +132,6 @@ Confirmation message and direction to social media.
 1. **As a prospective student**, I want to see lesson availability in a calendar so that I can choose convenient dates and times.
 2. **As a prospective student**, I want to see the Safe Drive UK base and event locations on a map so that I can plan my journey.
 
-## Design Choices
-
-**TBC**
-
 ## Features
 
 - Mobile-first responsive design
@@ -128,36 +144,45 @@ Confirmation message and direction to social media.
 ## Technologies Used
 
 - HTML5
-- CSS (custom + Bootstrap 5.3 via CDN)
-- Bootstrap 5.3
-- Git & GitHub
-- GitHub Pages
+- CSS
+- Bootstrap 5.3 - Reponsive framework
+- Git & GitHub - Version Control
+- GitHub Pages - Deployment
 - Balsamiq - Wireframes
 - Windows Snipping Tool - Wireframe previews
 - Chat GPT - Image Generation
 - picsart.com - Image cropping and resizing
 - tinypng.com - Image format conversion and compression
 - favicon.io - Conversion of Font Awesome icon to favicon
-
-- **TBC**
+- Visual Studio - Emmet and Prettier Extensions
+- W3C Markup Validation Service
+- W3C CSS Validation Service
+- Autoprefixer CSS Online
+- WebAIM - Accessibility
+- Chrome Dev Tools
+- Diffchecker.com
 
 ## Code & Media Attribution
 
-- Font Awesome - icons
-- ChatGPT - Image Generation
-
 **External Code**
 
-- Bootstrap 5.3
-- Font Awesome
+- Bootstrap 5.3 - reponsive framework
+- Font Awesome - icons/favicon
 - Code Institute JS for closing navbar on mobile
-- Autoprefixer CSS online - https://autoprefixer.github.io/
+- Autoprefixer CSS online
 - Google Fonts
-- **TBC**
 
 **Media**
 
-- Hero Image - **Link TBC**
+Generated with ChatGPT AI
+
+- Home Page Hero Image
+
+![Safe Drive UK Hero - Home Page](assets/images/learner-hero-900x600px.webp)
+
+- Success Page Hero Image
+
+![Safe Drive UK Hero - Home Page](assets/images/passed-hero-900x600px.webp)
 
 **All other code, content, colours, layout decisions and copy written by me.**
 
