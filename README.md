@@ -161,6 +161,8 @@ Confirmation message and direction to social media.
 - WebAIM - Accessibility
 - Chrome Dev Tools
 - Diffchecker.com
+- Google Lighthouse
+- Notepad++
 
 ## Code & Media Attribution
 
