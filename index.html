@@ -316,6 +316,7 @@
                                         class="btn btn-success my-4"
                                         data-bs-toggle="modal"
                                         data-bs-target="#testimonial1modal"
+                                        aria-label="Read Chloe's full testimonial"
                                     >
                                         Read More
                                     </button>
@@ -347,6 +348,7 @@
                                         class="btn btn-success my-4"
                                         data-bs-toggle="modal"
                                         data-bs-target="#testimonial2modal"
+                                        aria-label="Read David's full testimonial"
                                     >
                                         Read More
                                     </button>
@@ -376,6 +378,7 @@
                                         class="btn btn-success my-4"
                                         data-bs-toggle="modal"
                                         data-bs-target="#testimonial3modal"
+                                        aria-label="Read Priti's full testimonial"
                                     >
                                         Read More
                                     </button>
@@ -407,6 +410,7 @@
                                         class="btn btn-success my-4"
                                         data-bs-toggle="modal"
                                         data-bs-target="#testimonial4modal"
+                                        aria-label="Read James's full testimonial"
                                     >
                                         Read More
                                     </button>
@@ -421,13 +425,20 @@
             <!-- Modals for testimonials -->
 
             <!-- Testimonial 1 Modal -->
-            <div id="testimonial1modal" class="modal" tabindex="-1">
+            <div
+                id="testimonial1modal"
+                class="modal"
+                tabindex="-1"
+                aria-labelledby="modal-chloe-title"
+                aria-hidden="true"
+                role="dialog"
+            >
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <p class="modal-title">
+                            <h3 id="modal-chloe-title" class="modal-title small">
                                 <strong>"Passed first time - couldn't believe it!"</strong>
-                            </p>
+                            </h3>
                             <button
                                 type="button"
                                 class="btn-close"
@@ -463,13 +474,20 @@
             </div>
 
             <!-- Testimonial 2 Modal -->
-            <div id="testimonial2modal" class="modal" tabindex="-1">
+            <div
+                id="testimonial2modal"
+                class="modal"
+                tabindex="-1"
+                aria-labelledby="modal-david-title"
+                aria-hidden="true"
+                role="dialog"
+            >
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <p class="modal-title">
+                            <h3 id="modal-david-title" class="modal-title small">
                                 <strong>"Finally confident behind the wheel again"</strong>
-                            </p>
+                            </h3>
                             <button
                                 type="button"
                                 class="btn-close"
@@ -507,13 +525,20 @@
             </div>
 
             <!-- Testimonial 3 Modal -->
-            <div id="testimonial3modal" class="modal" tabindex="-1">
+            <div
+                id="testimonial3modal"
+                class="modal"
+                tabindex="-1"
+                aria-labelledby="modal-priti-title"
+                aria-hidden="true"
+                role="dialog"
+            >
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <p class="modal-title">
+                            <h3 id="modal-priti-title" class="modal-title small">
                                 <strong>"Best money I've spent this year"</strong>
-                            </p>
+                            </h3>
                             <button
                                 type="button"
                                 class="btn-close"
@@ -549,16 +574,23 @@
             </div>
 
             <!-- Testimonial 4 Modal -->
-            <div id="testimonial4modal" class="modal" tabindex="-1">
+            <div
+                id="testimonial4modal"
+                class="modal"
+                tabindex="-1"
+                aria-labelledby="modal-james-title"
+                aria-hidden="true"
+                role="dialog"
+            >
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <p class="modal-title">
+                            <h3 id="modal-james-title" class="modal-title small">
                                 <strong
                                     >"Worth every penny and they even gave me a student
                                     discount!"</strong
                                 >
-                            </p>
+                            </h3>
                             <button
                                 type="button"
                                 class="btn-close"
