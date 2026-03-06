@@ -20,6 +20,9 @@
 
     /* Navigation active and hover */
     --nav-hover: #ffffff38;
+
+    /* Form validation border */
+    --field-required: #0f2257;
 }
 
 html {
@@ -45,7 +48,7 @@ body p {
 
 /* Make text white */
 .navbar-custom .nav-link {
-    color: white;
+    color: var(--text-light);
 }
 
 /* Navbar button icon color */
@@ -107,6 +110,14 @@ body .fa-asterisk {
 
 body .submit {
     background-color: var(--secondary-navy);
+}
+
+/* Clear validation styling for all required fields on booking form */
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: var(--field-required);
+    border-width: 4px;
 }
 
 footer {
