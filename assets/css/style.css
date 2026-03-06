@@ -25,6 +25,7 @@
     --field-required: #0f2257;
 }
 
+/* General document styling */
 html {
     scroll-padding-top: 82px; /* To prevent content from being hidden behind fixed navbar */
 }
@@ -39,6 +40,11 @@ body {
 body p {
     font-family: "Open Sans", sans-serif;
     margin-bottom: 1.5rem;
+}
+
+main {
+    background-color: var(--primary-green);
+    color: var(--text-light);
 }
 
 /* Navbar custom styles */
@@ -80,10 +86,7 @@ body .fa-car {
     color: var(--text-light);
 }
 
-main {
-    background-color: var(--primary-green);
-    color: var(--text-light);
-}
+/* Services and Testimonials sections */
 
 #services,
 #testimonials {
@@ -93,6 +96,7 @@ main {
     margin-top: -75px; /* To pull section up slightly for better visual flow */
 }
 
+/* Card styling for services and testimonials */
 .card .badge {
     background-color: var(--secondary-navy);
     color: var(--text-light);
@@ -108,10 +112,6 @@ body .fa-asterisk {
     border-color: var(--secondary-navy);
 }
 
-body .submit {
-    background-color: var(--secondary-navy);
-}
-
 /* Clear validation styling for all required fields on booking form */
 input:invalid,
 select:invalid,
@@ -119,6 +119,8 @@ textarea:invalid {
     border-color: var(--field-required);
     border-width: 4px;
 }
+
+/* Footer styling */
 
 footer {
     background-color: var(--secondary-navy);
@@ -129,4 +131,9 @@ footer {
 footer a {
     color: var(--text-light);
     font-family: "Open Sans", sans-serif;
+}
+
+/* Booking form button styling */
+.booking-form .submit {
+    background-color: var(--secondary-navy);
 }
