@@ -89,35 +89,50 @@
             </div>
         </header>
         <main>
-            <h1>Booking Successful!</h1>
-            <h2>
-                PLACEHOLDER: Thank you for booking your driving lesson with Safe Drive UK. We will
-                contact you shortly to confirm the details.
-            </h2>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <section id="hero-passed" class="position-relative text-center">
+                <!-- Main section with hero, thankyou and Return Home button -->
+
+                <picture>
+                    <!-- Desktop - 1920x720 -->
+                    <source
+                        media="(min-width: 992px)"
+                        srcset="assets/images/passed-hero-1920x720px.webp"
+                    />
+
+                    <!-- Tablet - 1400x700 -->
+                    <source
+                        media="(min-width: 768px)"
+                        srcset="assets/images/passed-hero-1400x700px.webp"
+                    />
+
+                    <!-- Mobile - 900x600 (default) -->
+                    <img
+                        src="assets/images/passed-hero-900x600px.webp"
+                        alt="Successful student ripping up L plate having passed their driving test"
+                        class="img-fluid w-100"
+                    />
+                </picture>
+                <div class="container hero-text mt-2">
+                    <h2 id="hero-title" class="display-5 fw-bold">Thank You!</h2>
+
+                    <p>Thank you for your booking request with Safe Drive UK.</p>
+                    <p>
+                        We've received your details and one of our friendly team members will
+                        contact you within 24 hours to confirm your preferred times and match you
+                        with the perfect instructor.
+                    </p>
+                    <p>
+                        In the meantime, feel free to explore our services or follow us on social
+                        media.
+                    </p>
+                    <a
+                        href="index.html"
+                        id="return-home"
+                        class="btn btn-success mt-3 mb-5 py-2 fw-bold"
+                        >Return to Home</a
+                    >
+                </div>
+            </section>
         </main>
 
         <!-- Footer with contact information -->

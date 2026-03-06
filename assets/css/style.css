@@ -28,12 +28,15 @@
 /* General document styling */
 html {
     scroll-padding-top: 82px; /* To prevent content from being hidden behind fixed navbar */
+    height: 100%;
 }
 
 body {
     color: var(--text-dark);
     font-family: "Montserrat", sans-serif;
-
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
     padding-top: 82px; /* To prevent content from being hidden behind fixed navbar */
 }
 
@@ -45,6 +48,7 @@ body p {
 main {
     background-color: var(--primary-green);
     color: var(--text-light);
+    flex: 1; /* Ensure main takes up remaining space for sticky footer */
 }
 
 /* Navbar custom styles */
@@ -135,5 +139,10 @@ footer a {
 
 /* Booking form button styling */
 .booking-form .submit {
+    background-color: var(--secondary-navy);
+}
+
+/* Success page button styling */
+#return-home {
     background-color: var(--secondary-navy);
 }
