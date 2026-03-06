@@ -154,3 +154,9 @@ footer a {
 .card .fa-star {
     color: var(--star);
 }
+
+/* Style for modals */
+
+.modal-body .fa-star {
+    color: var(--star);
+}
