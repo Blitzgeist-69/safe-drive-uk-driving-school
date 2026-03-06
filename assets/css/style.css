@@ -23,6 +23,9 @@
 
     /* Form validation border */
     --field-required: #0f2257;
+
+    /* Testimonials */
+    --star: #f5d742;
 }
 
 /* General document styling */
@@ -145,4 +148,9 @@ footer a {
 /* Success page button styling */
 #return-home {
     background-color: var(--secondary-navy);
+}
+
+/* Style for testimonials section */
+.card .fa-star {
+    color: var(--star);
 }
