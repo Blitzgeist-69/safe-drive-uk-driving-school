@@ -109,7 +109,7 @@ body .fa-car {
 }
 
 #hero {
-    background-color: var(--secondary-navy) !important;
+    background-color: var(--secondary-navy);
     text-align: center;
     color: var(--text-light);
 }
@@ -136,7 +136,7 @@ body .fa-asterisk {
 }
 
 .form-check-input:checked {
-    background-color: var(--secondary-navy);
+    background-color: var(--field-required);
     border-color: var(--secondary-navy);
 }
 
@@ -144,7 +144,7 @@ body .fa-asterisk {
 input:invalid,
 select:invalid,
 textarea:invalid {
-    border-color: var(--field-required);
+    border-color: var(--secondary-navy);
     border-width: 4px;
 }
 
@@ -163,6 +163,14 @@ footer a {
 
 .social-links a {
     text-decoration: none;
+}
+
+/* Booking form styling */
+.booking-form {
+    background-color: var(--primary-green);
+    padding: 1rem;
+    color: var(--bg-light);
+    box-shadow: 0 0 0 4px var(--secondary-navy);
 }
 
 /* Booking form button styling */
