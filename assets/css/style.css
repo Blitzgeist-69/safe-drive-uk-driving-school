@@ -101,8 +101,15 @@ body .fa-car {
     color: var(--primary-green);
 }
 
+/* Hero section styling */
+.hero picture {
+    max-width: 88%;
+    margin: 0 auto;
+    display: block;
+}
+
 #hero {
-    background-color: var(--secondary-navy);
+    background-color: var(--secondary-navy) !important;
     text-align: center;
     color: var(--text-light);
 }
@@ -152,6 +159,10 @@ footer {
 footer a {
     color: var(--text-light);
     font-family: "Open Sans", sans-serif;
+}
+
+.social-links a {
+    text-decoration: none;
 }
 
 /* Booking form button styling */
