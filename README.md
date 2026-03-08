@@ -141,7 +141,7 @@ Confirmation message and direction to social media.
 - Consistent navbar & footer across all pages
 - SEO-friendly meta tags and alt text
 
-## Technologies Used
+## Technologies and Tools Used
 
 - HTML5
 - CSS
@@ -163,6 +163,7 @@ Confirmation message and direction to social media.
 - Diffchecker.com
 - Google Lighthouse
 - Notepad++
+- tabletomarkdown.com
 
 ## Code & Media Attribution
 
