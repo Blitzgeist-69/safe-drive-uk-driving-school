@@ -125,9 +125,16 @@ body .fa-car {
 }
 
 /* Card styling for services and testimonials */
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
 .card .badge {
     background-color: var(--secondary-navy);
     color: var(--text-light);
+    margin-top: auto; /* Push badge to bottom of card */
 }
 
 body .fa-check,
