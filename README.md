@@ -191,13 +191,32 @@ Generated with ChatGPT AI
 
 ## Deployment
 
-### To GitHub Pages
+This project was developed using HTML5, CSS3 and Bootstrap 5. It is a static website and has been deployed to **GitHub Pages**.
 
-**TBC**
+### Deployment Steps
 
-### To run locally
+1. Log in to your GitHub account and navigate to the repository:  
+   [https://github.com/Blitzgeist-69/safe-drive-uk-driving-school](https://github.com/Blitzgeist-69/safe-drive-uk-driving-school)
+2. Click on **Settings** (top right of the repository).
+3. In the left sidebar, scroll down and click **Pages**.
+4. Under **Source**, select **Deploy from a branch**.
+5. In the dropdown menu, select the `main` branch and click **Save**.
+6. GitHub will automatically build and deploy the site. This usually takes 1–2 minutes.
+7. Scroll back down to the **GitHub Pages** section — you will see a green box with your live site URL.
 
-**TBC**
+### Live Site
+
+The website is live and can be viewed here:  
+**[https://blitzgeist-69.github.io/safe-drive-uk-driving-school/](https://blitzgeist-69.github.io/safe-drive-uk-driving-school/)**
+
+### Local Development
+
+To run the project locally:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Blitzgeist-69/safe-drive-uk-driving-school.git
+    ```
 
 ## Testing
 
