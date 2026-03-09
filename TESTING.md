@@ -41,30 +41,62 @@ Go through every Must-Have, Should-Have and Could-Have user story.
 - Microsoft Edge
 - W3C HTML & CSS Validators
 - WAVE Accessibility Tool
-- Real devices: Windows 11 Desktop, Windows 10 Laptop, Samsung Galaxy A55 phone, Samsung S4 Galaxy Tab
+- Real devices: Windows 11 Desktop, Samsung Galaxy A55 phone, Samsung S4 Galaxy Tab
 
 **Test Environment:**
 
-- Operating System: Windows 11 / 10, Android 10 / 16
-- Browser versions: Chrome 142 / 145, Firefox 147, Edge 145,
+- Operating System: Windows 11, Android 10 / 16
+- Browser versions: Chrome 142 / 145, Firefox 148, Edge 145,
 
 **Validators**
 
-- HTML: W3C Markup Validation – **TBC**
-- CSS: W3C CSS Validation – **TBC**
+- HTML: W3C Markup Validation
+- CSS: W3C CSS Validation
+
+| Page              | Source code                                                                                           | Validator Result                                                                                               |
+| ----------------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Home (index.html) | [![Index source](./assets/screenshots/index_source.png)](./assets/screenshots/index_source.png)       | [![Index validated](./assets/screenshots/index_validated.png)](./assets/screenshots/index_validated.png)       |
+| Booking.html      | [![Booking source](./assets/screenshots/booking_source.png)](./assets/screenshots/booking_source.png) | [![Booking validated](./assets/screenshots/booking_validated.png)](./assets/screenshots/booking_validated.png) |
+| Success.html      | [![Success source](./assets/screenshots/success_source.png)](./assets/screenshots/success_source.png) | [![Success validated](./assets/screenshots/success_validated.png)](./assets/screenshots/success_validated.png) |
+| CSS stylesheet    | [![CSS source](./assets/screenshots/css_source.png)](./assets/screenshots/css_source.png)             | [![CSS validated](./assets/screenshots/css_validated.png)](./assets/screenshots/css_validated.png)             |
 
 **Lighthouse (Chrome DevTools) – Desktop and Mobile**
 
-- Performance: **TBC**
-- Accessibility: **TBC**
-- Best Practices: **TBC**
-- SEO: **TBC**
+| Lighthouse Report            | Home (index.html)                                                                                                                                              | booking.html                                                                                                                                                                           | success.html                                                                                                                                                                           |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Performance - Desktop**    | [![Lighthouse Desktop Performance](./assets/screenshots/lighthouse_desktop_performance.png)](./assets/screenshots/lighthouse_desktop_performance.png)          | [![Lighthouse Desktop Performance Booking](./assets/screenshots/lighthouse_desktop_performance_booking.png)](./assets/screenshots/lighthouse_desktop_performance_booking.png)          | [![Lighthouse Desktop Performance Success](./assets/screenshots/lighthouse_desktop_performance_success.png)](./assets/screenshots/lighthouse_desktop_performance_success.png)          |
+| **Accessibility - Desktop**  | [![Lighthouse Desktop Accessibility](./assets/screenshots/lighthouse_desktop_accessibility.png)](./assets/screenshots/lighthouse_desktop_accessibility.png)    | [![Lighthouse Desktop Accessibility Booking](./assets/screenshots/lighthouse_desktop_accessibility_booking.png)](./assets/screenshots/lighthouse_desktop_accessibility_booking.png)    | [![Lighthouse Desktop Accessibility Success](./assets/screenshots/lighthouse_desktop_accessibility_success.png)](./assets/screenshots/lighthouse_desktop_accessibility_success.png)    |
+| **Best Practices - Desktop** | [![Lighthouse Desktop Best Practices](./assets/screenshots/lighthouse_desktop_best_practices.png)](./assets/screenshots/lighthouse_desktop_best_practices.png) | [![Lighthouse Desktop Best Practices Booking](./assets/screenshots/lighthouse_desktop_best_practices_booking.png)](./assets/screenshots/lighthouse_desktop_best_practices_booking.png) | [![Lighthouse Desktop Best Practices Success](./assets/screenshots/lighthouse_desktop_best_practices_success.png)](./assets/screenshots/lighthouse_desktop_best_practices_success.png) |
+| **SEO - Desktop**            | [![Lighthouse Desktop SEO](./assets/screenshots/lighthouse_desktop_seo.png)](./assets/screenshots/lighthouse_desktop_seo.png)                                  | [![Lighthouse Desktop SEO Booking](./assets/screenshots/lighthouse_desktop_seo_booking.png)](./assets/screenshots/lighthouse_desktop_seo_booking.png)                                  | [![Lighthouse Desktop SEO Success](./assets/screenshots/lighthouse_desktop_seo_success.png)](./assets/screenshots/lighthouse_desktop_seo_success.png)                                  |
+| **Performance - Mobile**     | [![Lighthouse Mobile Performance](./assets/screenshots/lighthouse_mobile_performance.png)](./assets/screenshots/lighthouse_mobile_performance.png)             | [![Lighthouse Mobile Performance Booking](./assets/screenshots/lighthouse_mobile_performance_booking.png)](./assets/screenshots/lighthouse_mobile_performance_booking.png)             | [![Lighthouse Mobile Performance Success](./assets/screenshots/lighthouse_mobile_performance_success.png)](./assets/screenshots/lighthouse_mobile_performance_success.png)             |
+| **Accessibility - Mobile**   | [![Lighthouse Mobile Accessibility](./assets/screenshots/lighthouse_mobile_accessibility.png)](./assets/screenshots/lighthouse_mobile_accessibility.png)       | [![Lighthouse Mobile Accessibility Booking](./assets/screenshots/lighthouse_mobile_accessibility_booking.png)](./assets/screenshots/lighthouse_mobile_accessibility_booking.png)       | [![Lighthouse Mobile Accessibility Success](./assets/screenshots/lighthouse_mobile_accessibility_success.png)](./assets/screenshots/lighthouse_mobile_accessibility_success.png)       |
+| **Best Practices - Mobile**  | [![Lighthouse Mobile Best Practices](./assets/screenshots/lighthouse_mobile_best_practices.png)](./assets/screenshots/lighthouse_mobile_best_practices.png)    | [![Lighthouse Mobile Best Practices Booking](./assets/screenshots/lighthouse_mobile_best_practices_booking.png)](./assets/screenshots/lighthouse_mobile_best_practices_booking.png)    | [![Lighthouse Mobile Best Practices Success](./assets/screenshots/lighthouse_mobile_best_practices_success.png)](./assets/screenshots/lighthouse_mobile_best_practices_success.png)    |
+| **SEO - Mobile**             | [![Lighthouse Mobile SEO](./assets/screenshots/lighthouse_mobile_seo.png)](./assets/screenshots/lighthouse_mobile_seo.png)                                     | [![Lighthouse Mobile SEO Booking](./assets/screenshots/lighthouse_mobile_seo_booking.png)](./assets/screenshots/lighthouse_mobile_seo_booking.png)                                     | [![Lighthouse Mobile SEO Success](./assets/screenshots/lighthouse_mobile_seo_success.png)](./assets/screenshots/lighthouse_mobile_seo_success.png)                                     |
 
 **Browser & Device Testing**
 
 - Chrome, Firefox, Edge, Safari (desktop)
 - iPhone, iPad, Samsung Galaxy (via Chrome DevTools)
-- Real phone testing on Android
+- Real phone testing on Samsung Android A55 and Samsung S4 Tablet
+
+All Chrome Dev Tools device options were tested for layout and legibility.
+
+_Sample of Device Testing screenshots_
+
+| OS//Device/Browser             | Home (index.html)                                                                                                                            | Booking.html                                                                                                                                       | Success.html                                                                                                                                       |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Windows 11 Desktop Chrome 145  | [![Index Win 11 Chrome](./assets/screenshots/index_win_chrome.png)](./assets/screenshots/index_win_chrome.png)                               | [![booking Win 11 Chrome](./assets/screenshots/booking_win_chrome.png)](./assets/screenshots/booking_win_chrome.png)                               | [![success Win 11 Chrome](./assets/screenshots/success_win_chrome.png)](./assets/screenshots/success_win_chrome.png)                               |
+| Windows 11 Desktop Edge 145    | [![Index Win 11 Edge](./assets/screenshots/index_win_edge.png)](./assets/screenshots/index_win_edge.png)                                     | [![booking Win 11 Edge](./assets/screenshots/booking_win_edge.png)](./assets/screenshots/booking_win_edge.png)                                     | [![success Win 11 Edge](./assets/screenshots/success_win_edge.png)](./assets/screenshots/success_win_edge.png)                                     |
+| Windows 11 Desktop Firefox 148 | [![Index Win 11 Firefox](./assets/screenshots/index_win_firefox.png)](./assets/screenshots/index_win_firefox.png)                            | [![booking Win 11 Firefox](./assets/screenshots/booking_win_firefox.png)](./assets/screenshots/booking_win_firefox.png)                            | [![success Win 11 Firefox](./assets/screenshots/success_win_firefox.png)](./assets/screenshots/success_win_firefox.png)                            |
+| Samsung A55 Chrome 145         | [![Index A55 Chrome](./assets/screenshots/index_a55_chrome.png)](./assets/screenshots/index_a55_chrome.png)                                  | [![booking A55 Chrome](./assets/screenshots/booking_a55_chrome.png)](./assets/screenshots/booking_a55_chrome.png)                                  | [![success A55 Chrome](./assets/screenshots/success_a55_chrome.png)](./assets/screenshots/success_a55_chrome.png)                                  |
+| Samsung S4 Tablet Chrome       | [![Index S4 Chrome](./assets/screenshots/index_s4_chrome.png)](./assets/screenshots/index_s4_chrome.png)                                     | [![booking S4 Chrome](./assets/screenshots/booking_s4_chrome.png)](./assets/screenshots/booking_s4_chrome.png)                                     | [![success S4 Chrome](./assets/screenshots/success_s4_chrome.png)](./assets/screenshots/success_s4_chrome.png)                                     |
+| Devtools iphone SE             | [![index_cdevtools_iphone_se](./assets/screenshots/index_cdevtools_iphone_se.png)](./assets/screenshots/index_cdevtools_iphone_se.png)       | [![booking_cdevtools_iphone_se](./assets/screenshots/booking_cdevtools_iphone_se.png)](./assets/screenshots/booking_cdevtools_iphone_se.png)       | [![success_cdevtools_iphone_se](./assets/screenshots/success_cdevtools_iphone_se.png)](./assets/screenshots/success_cdevtools_iphone_se.png)       |
+| Devtools iphone SE             | [![index_cdevtools_iphone_se_2](./assets/screenshots/index_cdevtools_iphone_se_2.png)](./assets/screenshots/index_cdevtools_iphone_se_2.png) | [![booking_cdevtools_iphone_se_2](./assets/screenshots/booking_cdevtools_iphone_se_2.png)](./assets/screenshots/booking_cdevtools_iphone_se_2.png) | [![success_cdevtools_iphone_se_2](./assets/screenshots/success_cdevtools_iphone_se_2.png)](./assets/screenshots/success_cdevtools_iphone_se_2.png) |
+| Devtools iphone SE             | [![index_cdevtools_iphone_se_3](./assets/screenshots/index_cdevtools_iphone_se_3.png)](./assets/screenshots/index_cdevtools_iphone_se_3.png) | [![booking_cdevtools_iphone_se_3](./assets/screenshots/booking_cdevtools_iphone_se_3.png)](./assets/screenshots/booking_cdevtools_iphone_se_3.png) | N/A                                                                                                                                                |
+| Devtools Galaxy Z Fold 5       | [![index_cdevtools_gz5](./assets/screenshots/index_cdevtools_gz5.png)](./assets/screenshots/index_cdevtools_gz5.png)                         | [![booking_cdevtools_gz5](./assets/screenshots/booking_cdevtools_gz5.png)](./assets/screenshots/booking_cdevtools_gz5.png)                         | [![success_cdevtools_gz5](./assets/screenshots/success_cdevtools_gz5.png)](./assets/screenshots/success_cdevtools_gz5.png)                         |
+| Devtools ipad mini             | [![index_cdevtools_ipad_mini](./assets/screenshots/index_cdevtools_ipad_mini.png)](./assets/screenshots/index_cdevtools_ipad_mini.png)       | [![booking_cdevtools_ipad_mini](./assets/screenshots/booking_cdevtools_ipad_mini.png)](./assets/screenshots/booking_cdevtools_ipad_mini.png)       | [![success_cdevtools_ipad_mini](./assets/screenshots/success_cdevtools_ipad_mini.png)](./assets/screenshots/success_cdevtools_ipad_mini.png)       |
+| Devtools ipad mini             | [![index_cdevtools_ipad_mini_2](./assets/screenshots/index_cdevtools_ipad_mini_2.png)](./assets/screenshots/index_cdevtools_ipad_mini_2.png) | N/A                                                                                                                                                | N/A                                                                                                                                                |
+| Devtools Surface Pro 7         | [![index_cdevtools_index_cdevtools_sp7](./assets/screenshots/index_cdevtools_sp7.png)](./assets/screenshots/index_cdevtools_sp7.png)         | [![booking_cdevtools_sp7](./assets/screenshots/booking_cdevtools_sp7.png)](./assets/screenshots/booking_cdevtools_sp7.png)                         | [![success_cdevtools_sp7](./assets/screenshots/success_cdevtools_sp7.png)](./assets/screenshots/success_cdevtools_sp7.png)                         |
 
 **User Story Testing**
 | User Story | Test Performed | Result | Evidence |  
@@ -94,12 +126,16 @@ Go through every Must-Have, Should-Have and Could-Have user story.
 
 **Known Issues**
 
-**TBC**
+1. Sub optimal contrast in navbar subtitle - "Driving School"
+
+2. Booking form select elements do not have associated label elements
 
 ## Future Improvements
 
 - Availability calendar
 - Google Maps embed
+- Add professionally produced photographs
+- Add unique brand logo in place of Font Awesome icons/favicon
 
 ## Conclusion
 
